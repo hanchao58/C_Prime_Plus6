@@ -1,0 +1,41 @@
+%导言区
+\documentclass[fontset=windows]{ctexart}%book，report，letter
+\usepackage{lipsum}
+%\usepackage[UTF8]{ctex}
+\newcommand\degree{^\circ}
+\newcommand{\mainfont}\heiti{{\zihao{2}}}
+\title{\heiti 第一次学习}
+\author{\kaishu 韩超}
+\date{\today}
+\ctexset{
+	abstractname = {本文概要},
+	bibname		 = {文\quad 献},
+	today		 = old
+}
+%正文区
+%\begin{*环境名称*}
+%\end{*环境名称*}
+%$$数学模式$$隔行公式$$
+\begin{document}
+
+	\maketitle
+	hello world!韩超
+	$\angle C=90 \degree$,
+	\begin{equation}
+		f(x)
+	\end{equation}
+
+	%字体族设置
+	\textrm{Roman Family} 
+	{\rmfamily Roman Family} %后续字体为罗马字体
+
+	%字体形状设置，直立，斜体等
+	{\textit{Italic Shape}}
+
+	\itshape Italic Shape
+
+	中文字体的{\heiti 粗体}与斜体
+
+	\mainfont 你好
+
+\end{document}
