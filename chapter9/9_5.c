@@ -1,6 +1,5 @@
 #include<stdio.h>
 void larger_of(double *x, double *y);
-s
 int main(){
     double x,y;
     if(scanf("%lf%lf",&x,&y) == 2){
