@@ -5,4 +5,5 @@ void main(){
     printf("输入:");
     scanf("%d",&ascii);
     printf("\n对应字符为%c",ascii);
+    return 0;
 }
